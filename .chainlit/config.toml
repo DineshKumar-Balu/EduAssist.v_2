@@ -53,7 +53,7 @@ edit_message = true
 
 [UI]
 # Name of the assistant.
-name = "Assistant"
+name = "EduAssist"
 
 # Description of the assistant. This is used for HTML tags.
 # description = ""
@@ -92,29 +92,31 @@ cot = "full"
     #font_family = "Inter, sans-serif"
 # Override default MUI light theme. (Check theme.ts)
 [UI.theme.light]
-    #background = "#FAFAFA"
-    #paper = "#FFFFFF"
+    background = "#F3F4F6"
+    paper = "#FFFFFF"
 
     [UI.theme.light.primary]
-        #main = "#F80061"
-        #dark = "#980039"
-        #light = "#FFE7EB"
+        main = "#1D4E89"
+        dark = "#153764"
+        light = "#4A7AB9"
+        
     [UI.theme.light.text]
-        #primary = "#212121"
-        #secondary = "#616161"
+        primary = "#333333"
+        secondary = "#666666"
 
 # Override default MUI dark theme. (Check theme.ts)
 [UI.theme.dark]
-    #background = "#FAFAFA"
-    #paper = "#FFFFFF"
+    background = "#1A1A1A"
+    paper = "#2A2A2A"
 
     [UI.theme.dark.primary]
-        #main = "#F80061"
-        #dark = "#980039"
-        #light = "#FFE7EB"
+        main = "#4A6FA5"
+        dark = "#324A73"
+        light = "#7A9FCF"
+    
     [UI.theme.dark.text]
-        #primary = "#EEEEEE"
-        #secondary = "#BDBDBD"
+        primary = "#E0E0E0"
+        secondary = "#B0B0B0"
 
 [meta]
 generated_by = "1.1.402"
